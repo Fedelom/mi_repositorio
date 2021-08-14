@@ -83,7 +83,7 @@ h1{
     animation-iteration-count: 1;
 }
 .lista {   
-    color: mediumblue;
+    color: rgb(3, 0, 205);
     background-color: rgb(213, 196, 230);
 }
 header nav {
