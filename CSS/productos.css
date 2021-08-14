@@ -1,0 +1,139 @@
+header{
+	text-align: center;
+}
+
+ul {
+	list-style: none;
+}
+li {
+	display: inline-block;
+	width: 25%;
+	position:relative;
+	font-size: 15px;
+	color: black;
+}
+
+ul li a:hover {
+	background-color: red;
+	color: white;
+	padding: 4px;
+}
+
+a {
+	text-decoration: none;
+	padding: 4px;
+	text-transform: uppercase;
+}
+h3{
+    color: rgb(93, 173, 93);
+    text-decoration: underline;
+    position: relative;
+    left: 35%;
+}
+body {
+	display: flex;
+	height: 600px;
+	flex-direction: column;
+	padding: 1em;
+}
+
+#main{
+	display: flex;
+	flex:1;
+	margin-top: 20px;
+}
+.h1 {
+    color: magenta;
+    font-size: xx-large;
+    font-family: Arial, Helvetica, sans-serif;
+    font-style: italic;
+}
+.h2 {   
+    color: mediumblue;
+    font-family: Arial, Helvetica, sans-serif;
+}
+.lista {   
+    color: mediumblue;
+   background-color: rgb(213, 196, 230);
+}
+
+div{    
+    display: inline-block;
+    margin: 35px;
+    padding: 45px;
+    position: relative;
+}
+.grid {
+    height: 100vh;
+    display: flex;
+    grid-template-columns: repeat(3, 1fr);
+    grid-template-rows: repeat(5, 1fr);
+    grid-template-areas: 
+    "header header header" 
+    "aside main main" 
+    "aside main main"
+    "aside main main"
+    "aside footer footer";
+    background-image: url("/Multimedia/Imagenes/290-2906396_night-sky.jpg");
+    background-repeat: repeat;
+    background-size: auto;
+}
+.parrafo {
+    color: whitesmoke;
+    font-weight: bold;
+    font-size: 20px;
+    font-family: Arial, Helvetica, sans-serif;
+}
+ul li a:hover {
+    background-color: rgb(121, 5, 255);
+    color: white;
+    padding: 4px;
+    transition: all 1s
+}
+.footer{
+    margin: 15px;
+    padding: 15px;
+    color: grey;
+    font-weight: lighter;
+    font-size: 15px;
+    font-family: Arial, Helvetica, sans-serif;
+    text-decoration: underline; 
+}
+article img{
+    position: relative;
+    padding: 65px;
+}
+section div:hover{
+    transition: all 1s;
+    position: relative;
+    transform: scale(1.2);
+    z-index: 2;
+}
+ul {
+    list-style: none;
+    font-size:0 /* truco por el uso de inline-block*/
+ }
+ li {
+    display: inline-block;
+    width: 20%;
+    position:relative;
+    font-size: 14px
+ }
+ ul ul {
+    position: absolute;
+    display: none;
+ }
+ ul ul li {
+    display: block;
+ }
+ ul li:hover ul {
+    display:block;
+}
+.iconos{
+    position: relative;
+    text-align: center;
+}
+.iconos:hover{
+    transform: scale(1.09);
+    transition: all 1s;
+}
