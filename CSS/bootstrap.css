@@ -76,12 +76,6 @@ hr {
   height: 0;
   overflow: visible;
 }
-
-h1, h2, h3, h4, h5, h6 {
-  margin-top: 0;
-  margin-bottom: 0.5rem;
-}
-
 p {
   margin-top: 0;
   margin-bottom: 1rem;
@@ -329,14 +323,6 @@ template {
 
 [hidden] {
   display: none !important;
-}
-
-h1, h2, h3, h4, h5, h6,
-.h1, .h2, .h3, .h4, .h5, .h6 {
-  margin-bottom: 0.5rem;
-  font-weight: 500;
-  line-height: 1.2;
-  color: inherit;
 }
 
 h1, .h1 {
@@ -2475,8 +2461,8 @@ fieldset:disabled a.btn {
 
 .btn-primary {
   color: #fff;
-  background-color: #007bff;
-  border-color: #007bff;
+  background-color: #550efa;
+  border-color: #0077f7;
 }
 
 .btn-primary:hover {

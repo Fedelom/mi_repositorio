@@ -172,6 +172,7 @@ table {
     text-align: center;
     border: 5px solid;
     font-size: 15px;
+    left: 30%;
     position: relative;
 }  
 ul li a:hover {
