@@ -38,7 +38,7 @@ body {
 	flex:1;
 	margin-top: 20px;
 }
-.grid {
+.grid{
     height: 100vh;
     display: flex;
     grid-template-columns: repeat(3, 1fr);
@@ -53,7 +53,8 @@ body {
     background-repeat: repeat;
     background-size: auto;
 }
-h1{
+
+.h1{
     color: rgb(255, 97, 132);
     font-size: xx-large;
     font-family: Arial, Helvetica, sans-serif;
@@ -61,6 +62,7 @@ h1{
     animation-duration: 3s;
     animation-name: aparecer;
     animation-iteration-count: 1;
+    margin-top: -25%;
 }
     @keyframes aparecer {
     0% {
@@ -83,7 +85,7 @@ h1{
     color: mediumvioletred;
     font-size: 20px;
     font-family: Arial, Helvetica, sans-serif;
-    width: 510px;
+    width: 500px;
     margin-top: 2%;
 }
 div img{
