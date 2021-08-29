@@ -1,0 +1,220 @@
+header{
+	text-align: center;
+}
+
+ul {
+	list-style: none;
+}
+li {
+
+	display: inline-block;
+	width: 25%;
+	position:relative;
+	font-size: 15px;
+	color: black;
+}
+
+ul li a:hover {
+	background-color: red;
+	color: white;
+	padding: 4px;
+    transition: all 1s;
+}
+
+a {
+	text-decoration: none;
+	padding: 4px;
+	text-transform: uppercase;
+}
+
+body {
+	display: flex;
+	height: 600px;
+	flex-direction: column;
+	padding: 1em;
+}
+
+#main{
+	display: flex;
+	flex:1;
+	margin-top: 20px;
+}
+
+.footer{
+    grid-area: footer;
+    margin-top: -8%;
+    color: grey;
+    font-weight: lighter;
+    font-size: 15px;
+    font-family: Arial, Helvetica, sans-serif;
+    text-decoration: underline; 
+    position: relative;
+}
+
+article, aside, footer{
+	flex:2;
+	padding: 1px;
+	margin: 1px;
+}
+h1{
+    color: rgb(255, 97, 132);
+    text-align: center;
+    font-size: xx-large;
+    font-family: Arial, Helvetica, sans-serif;
+    font-style: italic;
+    animation-duration: 3s;
+    animation-name: aparecer;
+    animation-iteration-count: 1;
+}
+    @keyframes aparecer {
+    0% {
+        opacity: 0;
+    }            
+    100% {
+        opacity: 1;
+    }
+}
+.h2 {   
+    color: rgb(247, 27, 111);
+    font-size: 25px;
+    font-family: Arial, Helvetica, sans-serif;
+    font-style: italic;
+    position: relative;
+    left: 100px;
+    animation-duration: 2s;
+    animation-name: aparecer;
+    animation-iteration-count: 1;
+}
+.lista {   
+    color: rgb(3, 0, 205);
+    background-color: rgb(213, 196, 230);
+}
+header nav {
+    list-style-type: square;
+    list-style-position: inside;
+}
+.video{
+    position: relative;
+    top: -350px;
+    left: 1000px;
+}
+div img{
+    position: relative;
+    padding: 60px;
+    margin-top: -9%;
+}
+.parrafo {
+    background-image: linear-gradient(to left, red , green);
+    text-align: center;
+    margin-top: 7%;
+    width:  555px;
+    height: 165px;
+    line-height: 32px;
+    color: whitesmoke;
+    font-weight: bold;
+    font-size: 22px;
+    font-family: Arial, Helvetica, sans-serif;
+    position: relative;
+    left: 5%;
+}
+ul li a:hover {
+    background-color: rgb(121, 5, 255);
+    color: white;
+    padding: 4px;
+}
+.botones{   
+    position: relative;
+    left: 43%;
+    margin-top: 1%;
+}
+.grid {
+    height: 100vh;
+    display: flex;
+    grid-template-columns: repeat(3, 1fr);
+    grid-template-rows: repeat(5, 1fr);
+    grid-template-areas: 
+    "header header header" 
+    "aside main main" 
+    "aside main main"
+    "aside main main"
+    "aside footer footer";
+    background-image: url("/Multimedia/Imagenes/290-2906396_night-sky.jpg");
+    background-repeat: repeat;
+    background-size: auto;
+}
+ul {
+    list-style: none;
+    font-size:0 /* truco por el uso de inline-block*/
+ }
+ li {
+    display: inline-flexbox;
+    width: 20%;
+    position:relative;
+    font-size: 14px
+ }
+ ul ul {
+    position: absolute;
+    display: none;
+ }
+ ul ul li {
+    display: block;
+ }
+ ul li:hover ul {
+    display:block;
+}
+
+.iconos{
+    position: relative;
+    text-align: center; 
+    margin-top: -10%;
+}
+.iconos:hover{
+    transform: scale(1.09);
+    transition: all 1s;
+}
+.contenedor {
+	max-width: 1000px;
+	width: 90%;
+	margin: 0 auto;
+}
+
+.tarjeta {
+	background-color: #cccccc;
+	border-radius: 15px;
+	padding: 20px;
+	display: flex;
+	align-items: center;
+	position: relative;
+	margin-bottom: 50px; 
+}
+
+.tarjeta__img {
+	width: 300px;
+	height: 180px;
+	margin-right: 30px;
+}
+
+.tarjeta__titulo {
+	font-size:1.5rem;
+	margin-bottom: 20px;
+}
+
+.tarjeta__parrafo {
+	line-height: 28px;
+	font-size:1rem;
+}
+
+.boton{
+	height: 60px;
+	padding: 20px;
+	background-color: blue;
+	color: white;
+	display: inline-block;
+	text-decoration: none;
+}
+
+.boton--derecha {
+	position: absolute;
+	right: 20px;
+	bottom: -25px;
+}
