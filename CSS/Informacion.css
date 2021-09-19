@@ -93,7 +93,7 @@ tr td{
     background-color: rgb(213, 196, 230);
 }
 .imagen {
-    background-image: url("/Multimedia/Imagenes/290-2906396_night-sky.jpg");
+    background-image: url("../Multimedia/Imagenes/290-2906396_night-sky.jpg");
     height: 800px;  
     background-size: auto; 
 }  
@@ -108,7 +108,7 @@ tr td{
     "aside main main"
     "aside main main"
     "aside footer footer";
-    background-image: url("/Multimedia/Imagenes/290-2906396_night-sky.jpg");
+    background-image: url("../Multimedia/Imagenes/290-2906396_night-sky.jpg");
     background-repeat: repeat;
     background-size: auto;
 } 
@@ -200,12 +200,15 @@ ul {
  ul li:hover ul {
     display:block;
 }
-.iconos{
+.iconos {
     position: relative;
     text-align: center;
-    margin-top: 10%;
+    margin: 2rem 0;
+} 
+.iconos img {
+    margin: 0 1rem;
 }
-.iconos:hover{
-    transform: scale(1.09);
+.iconos img:hover {
+    transform: scale(1.09) rotate(360deg);
     transition: all 1s;
 }
