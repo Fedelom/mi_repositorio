@@ -28,7 +28,16 @@ ul li a:hover {
 	padding: 4px;
     transition: all 1s
 }
-
+@media screen and (max-width: 480px){
+    #encabezado{
+        height: auto;
+    }
+    #contenido{
+        width: auto;
+    }
+    #barra_lateral{
+        display:none;
+    }
 a {
 	text-decoration: none;
 	padding: 4px;
@@ -159,4 +168,5 @@ ul {
 .iconos img:hover {
     transform: scale(1.09) rotate(360deg);
     transition: all 1s;
+}
 }
