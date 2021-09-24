@@ -1,5 +1,9 @@
-header{
-	text-align: center;
+header {
+    text-align: center;
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
 }
 ul {
 	list-style: none;
@@ -11,37 +15,38 @@ li {
 	font-size: 15px;
 	color: black;
 }
-
 ul li a:hover {
 	background-color: red;
 	color: white;
 	padding: 4px;
     transition: all 1s
 }
-
 a {
 	text-decoration: none;
 	padding: 4px;
 	text-transform: uppercase;
 }
-
 body {
 	display: flex;
 	height: 600px;
 	flex-direction: column;
 	padding: 1em;
 }
-
 #main{
 	display: flex;
 	flex:1;
 	margin-top: 20px;
 }
-
 footer {
     background-color: rgb(10, 218, 233);
     width: 100%;
     height: 100px;
+    margin-top: 10%;
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    margin-top: 50%;
 }
 footer h5 {
     font-size: 2rem;
@@ -91,8 +96,7 @@ tr td{
     background-color: rgb(213, 196, 230);
 }
 .imagen {
-    background-image: url("../Multimedia/Imagenes/290-2906396_night-sky.jpg");
-    height: 800px;  
+    background-image: url("../Multimedia/Imagenes/290-2906396_night-sky.jpg"); 
     background-size: auto; 
 }  
 
@@ -104,7 +108,6 @@ p{
     height: 60px;
 }
 div img{
-    position: relative;
     padding: 60px;
 }
 .fieldset1 {
@@ -119,10 +122,10 @@ div img{
     padding: 15px;
     width: 25%;
     height: 45%;
+    margin-top: 10%;
     animation-duration: 3s;
     animation-name: aparecer;
     animation-iteration-count: 1;
-    display: flexbox;
 }
 .fieldset2 {
     position: relative;
@@ -136,10 +139,10 @@ div img{
     padding: 15px;
     width: 25%;
     height: 45%;
+    margin-top: -12%;
     animation-duration: 3s;
     animation-name: aparecer;
     animation-iteration-count: 1;
-    display: flexbox;
 }
 table {
     text-align: center;
@@ -155,7 +158,7 @@ ul li a:hover {
 }
 ul {
     list-style: none;
-    font-size:0 /* truco por el uso de inline-block*/
+    font-size:0
  }
  li {
     display: inline-block;
@@ -174,9 +177,9 @@ ul {
     display:block;
 }
 .iconos {
-    position: relative;
     text-align: center;
     margin: 2rem 0;
+    margin-top: 15%;
 } 
 .iconos img {
     margin: 0 1rem;
